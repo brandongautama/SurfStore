@@ -34,13 +34,7 @@ Use the following commands to run the blockstore, metadata store and the client 
    ./run-server.sh
    ```
 
-2. Metadata store -
-
-   ```shell
-   python metastore.py config.txt
-   ```
-
-3. Client -
+2. Client -
 
    ```shell
    Format: ./run-client.sh localhost:8080 basedir blocksize
